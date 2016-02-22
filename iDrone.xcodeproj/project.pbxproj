@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED98D2901C7AABDA00335810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98D28F1C7AABDA00335810 /* main.m */; };
+		ED98D2931C7AABDA00335810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98D2921C7AABDA00335810 /* AppDelegate.m */; };
+		ED98D2961C7AABDB00335810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98D2951C7AABDB00335810 /* ViewController.m */; };
+		ED98D2991C7AABDB00335810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED98D2971C7AABDB00335810 /* Main.storyboard */; };
+		ED98D29B1C7AABDB00335810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED98D29A1C7AABDB00335810 /* Assets.xcassets */; };
+		ED98D29E1C7AABDB00335810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED98D29C1C7AABDB00335810 /* LaunchScreen.storyboard */; };
+		ED98D2A91C7AABDB00335810 /* iDroneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98D2A81C7AABDB00335810 /* iDroneTests.m */; };
+		ED98D2B41C7AABDB00335810 /* iDroneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED98D2B31C7AABDB00335810 /* iDroneUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED98D2A51C7AABDB00335810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED98D2831C7AABDA00335810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED98D28A1C7AABDA00335810;
+			remoteInfo = iDrone;
+		};
+		ED98D2B01C7AABDB00335810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED98D2831C7AABDA00335810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED98D28A1C7AABDA00335810;
+			remoteInfo = iDrone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED98D28B1C7AABDA00335810 /* iDrone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDrone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED98D28F1C7AABDA00335810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED98D2911C7AABDA00335810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED98D2921C7AABDA00335810 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED98D2941C7AABDA00335810 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED98D2951C7AABDB00335810 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED98D2981C7AABDB00335810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED98D29A1C7AABDB00335810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED98D29D1C7AABDB00335810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED98D29F1C7AABDB00335810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED98D2A41C7AABDB00335810 /* iDroneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDroneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED98D2A81C7AABDB00335810 /* iDroneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDroneTests.m; sourceTree = "<group>"; };
+		ED98D2AA1C7AABDB00335810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED98D2AF1C7AABDB00335810 /* iDroneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDroneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED98D2B31C7AABDB00335810 /* iDroneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDroneUITests.m; sourceTree = "<group>"; };
+		ED98D2B51C7AABDB00335810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED98D2881C7AABDA00335810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED98D2A11C7AABDB00335810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED98D2AC1C7AABDB00335810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED98D2821C7AABDA00335810 = {
+			isa = PBXGroup;
+			children = (
+				ED98D28D1C7AABDA00335810 /* iDrone */,
+				ED98D2A71C7AABDB00335810 /* iDroneTests */,
+				ED98D2B21C7AABDB00335810 /* iDroneUITests */,
+				ED98D28C1C7AABDA00335810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED98D28C1C7AABDA00335810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED98D28B1C7AABDA00335810 /* iDrone.app */,
+				ED98D2A41C7AABDB00335810 /* iDroneTests.xctest */,
+				ED98D2AF1C7AABDB00335810 /* iDroneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED98D28D1C7AABDA00335810 /* iDrone */ = {
+			isa = PBXGroup;
+			children = (
+				ED98D2911C7AABDA00335810 /* AppDelegate.h */,
+				ED98D2921C7AABDA00335810 /* AppDelegate.m */,
+				ED98D2941C7AABDA00335810 /* ViewController.h */,
+				ED98D2951C7AABDB00335810 /* ViewController.m */,
+				ED98D2971C7AABDB00335810 /* Main.storyboard */,
+				ED98D29A1C7AABDB00335810 /* Assets.xcassets */,
+				ED98D29C1C7AABDB00335810 /* LaunchScreen.storyboard */,
+				ED98D29F1C7AABDB00335810 /* Info.plist */,
+				ED98D28E1C7AABDA00335810 /* Supporting Files */,
+			);
+			path = iDrone;
+			sourceTree = "<group>";
+		};
+		ED98D28E1C7AABDA00335810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED98D28F1C7AABDA00335810 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED98D2A71C7AABDB00335810 /* iDroneTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED98D2A81C7AABDB00335810 /* iDroneTests.m */,
+				ED98D2AA1C7AABDB00335810 /* Info.plist */,
+			);
+			path = iDroneTests;
+			sourceTree = "<group>";
+		};
+		ED98D2B21C7AABDB00335810 /* iDroneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED98D2B31C7AABDB00335810 /* iDroneUITests.m */,
+				ED98D2B51C7AABDB00335810 /* Info.plist */,
+			);
+			path = iDroneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED98D28A1C7AABDA00335810 /* iDrone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED98D2B81C7AABDB00335810 /* Build configuration list for PBXNativeTarget "iDrone" */;
+			buildPhases = (
+				ED98D2871C7AABDA00335810 /* Sources */,
+				ED98D2881C7AABDA00335810 /* Frameworks */,
+				ED98D2891C7AABDA00335810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDrone;
+			productName = iDrone;
+			productReference = ED98D28B1C7AABDA00335810 /* iDrone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED98D2A31C7AABDB00335810 /* iDroneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED98D2BB1C7AABDB00335810 /* Build configuration list for PBXNativeTarget "iDroneTests" */;
+			buildPhases = (
+				ED98D2A01C7AABDB00335810 /* Sources */,
+				ED98D2A11C7AABDB00335810 /* Frameworks */,
+				ED98D2A21C7AABDB00335810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED98D2A61C7AABDB00335810 /* PBXTargetDependency */,
+			);
+			name = iDroneTests;
+			productName = iDroneTests;
+			productReference = ED98D2A41C7AABDB00335810 /* iDroneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED98D2AE1C7AABDB00335810 /* iDroneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED98D2BE1C7AABDB00335810 /* Build configuration list for PBXNativeTarget "iDroneUITests" */;
+			buildPhases = (
+				ED98D2AB1C7AABDB00335810 /* Sources */,
+				ED98D2AC1C7AABDB00335810 /* Frameworks */,
+				ED98D2AD1C7AABDB00335810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED98D2B11C7AABDB00335810 /* PBXTargetDependency */,
+			);
+			name = iDroneUITests;
+			productName = iDroneUITests;
+			productReference = ED98D2AF1C7AABDB00335810 /* iDroneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED98D2831C7AABDA00335810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alec Malstrom";
+				TargetAttributes = {
+					ED98D28A1C7AABDA00335810 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					ED98D2A31C7AABDB00335810 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ED98D28A1C7AABDA00335810;
+					};
+					ED98D2AE1C7AABDB00335810 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ED98D28A1C7AABDA00335810;
+					};
+				};
+			};
+			buildConfigurationList = ED98D2861C7AABDA00335810 /* Build configuration list for PBXProject "iDrone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED98D2821C7AABDA00335810;
+			productRefGroup = ED98D28C1C7AABDA00335810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED98D28A1C7AABDA00335810 /* iDrone */,
+				ED98D2A31C7AABDB00335810 /* iDroneTests */,
+				ED98D2AE1C7AABDB00335810 /* iDroneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED98D2891C7AABDA00335810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98D29E1C7AABDB00335810 /* LaunchScreen.storyboard in Resources */,
+				ED98D29B1C7AABDB00335810 /* Assets.xcassets in Resources */,
+				ED98D2991C7AABDB00335810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED98D2A21C7AABDB00335810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED98D2AD1C7AABDB00335810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED98D2871C7AABDA00335810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98D2961C7AABDB00335810 /* ViewController.m in Sources */,
+				ED98D2931C7AABDA00335810 /* AppDelegate.m in Sources */,
+				ED98D2901C7AABDA00335810 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED98D2A01C7AABDB00335810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98D2A91C7AABDB00335810 /* iDroneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED98D2AB1C7AABDB00335810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98D2B41C7AABDB00335810 /* iDroneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED98D2A61C7AABDB00335810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED98D28A1C7AABDA00335810 /* iDrone */;
+			targetProxy = ED98D2A51C7AABDB00335810 /* PBXContainerItemProxy */;
+		};
+		ED98D2B11C7AABDB00335810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED98D28A1C7AABDA00335810 /* iDrone */;
+			targetProxy = ED98D2B01C7AABDB00335810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED98D2971C7AABDB00335810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED98D2981C7AABDB00335810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED98D29C1C7AABDB00335810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED98D29D1C7AABDB00335810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED98D2B61C7AABDB00335810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ED98D2B71C7AABDB00335810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED98D2B91C7AABDB00335810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*]" = "/Users/alecmalstrom/ARSDK3_iOS_3_8_3/iOS-iphoneos/staging/usr/include";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = "/Users/alecmalstrom/ARSDK3_iOS_3_8_3/iOS-iphonesimulator/staging/usr/include";
+				INFOPLIST_FILE = iDrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "/Users/alecmalstrom/ARSDK3_iOS_3_8_3/iOS-iphoneos/staging/usr/lib";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "/Users/alecmalstrom/ARSDK3_iOS_3_8_3/iOS-iphonesimulator/staging/usr/lib";
+				OTHER_LDFLAGS = (
+					"-larcommands",
+					"-larcontroller",
+					"-lardiscovery",
+					"-larnetwork",
+					"-larnetworkal",
+					"-larsal",
+					"-larstream",
+					"-larstream2",
+					"-larmavlink",
+					"-ljson",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EECS-481.iDrone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED98D2BA1C7AABDB00335810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*]" = "/Users/alecmalstrom/ARSDK3_iOS_3_8_3/iOS-iphoneos/staging/usr/include";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = "/Users/alecmalstrom/ARSDK3_iOS_3_8_3/iOS-iphonesimulator/staging/usr/include";
+				INFOPLIST_FILE = iDrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "/Users/alecmalstrom/ARSDK3_iOS_3_8_3/iOS-iphoneos/staging/usr/lib";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "/Users/alecmalstrom/ARSDK3_iOS_3_8_3/iOS-iphonesimulator/staging/usr/lib";
+				OTHER_LDFLAGS = (
+					"-larcommands",
+					"-larcontroller",
+					"-lardiscovery",
+					"-larnetwork",
+					"-larnetworkal",
+					"-larsal",
+					"-larstream",
+					"-larstream2",
+					"-larmavlink",
+					"-ljson",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EECS-481.iDrone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED98D2BC1C7AABDB00335810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iDroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EECS-481.iDroneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDrone.app/iDrone";
+			};
+			name = Debug;
+		};
+		ED98D2BD1C7AABDB00335810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iDroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EECS-481.iDroneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDrone.app/iDrone";
+			};
+			name = Release;
+		};
+		ED98D2BF1C7AABDB00335810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iDroneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EECS-481.iDroneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iDrone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED98D2C01C7AABDB00335810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iDroneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EECS-481.iDroneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iDrone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED98D2861C7AABDA00335810 /* Build configuration list for PBXProject "iDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED98D2B61C7AABDB00335810 /* Debug */,
+				ED98D2B71C7AABDB00335810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED98D2B81C7AABDB00335810 /* Build configuration list for PBXNativeTarget "iDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED98D2B91C7AABDB00335810 /* Debug */,
+				ED98D2BA1C7AABDB00335810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED98D2BB1C7AABDB00335810 /* Build configuration list for PBXNativeTarget "iDroneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED98D2BC1C7AABDB00335810 /* Debug */,
+				ED98D2BD1C7AABDB00335810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED98D2BE1C7AABDB00335810 /* Build configuration list for PBXNativeTarget "iDroneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED98D2BF1C7AABDB00335810 /* Debug */,
+				ED98D2C01C7AABDB00335810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED98D2831C7AABDA00335810 /* Project object */;
+}
